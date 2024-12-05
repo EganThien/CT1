@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhà thuốc</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="thuoc.css">
+</head>
+<body>
+    <div class = "sidebar">
+        <div class="Logo">
+            <img src="Nhathuoc.jpg" alt="Logo">
+            <h2>Nhà Thuốc</h2>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><i class="fas fa-users"></i>Quản lý nhân viên</li>
+                <li><i class="fas fa-clock"></i> Ca Làm Việc</li>
+                <li><i class="fas fa-cart-plus"></i> Bán Thuốc</li>
+                <li><i class="fas fa-users-cog"></i> Khách Hàng</li>
+                <li><i class="fas fa-pills"></i> Loại Thuốc</li>
+                <li class="active"><i class="fas fa-capsules"></i> Thuốc</li>
+                <li><i class="fas fa-file-invoice"></i> Hóa Đơn</li>
+                <li><i class="fas fa-box"></i> Đơn Hàng</li>
+                <li><i class="fas fa-industry"></i> Nhà Cung Cấp</li>
+                <li><i class="fas fa-warehouse"></i> Nơi Sản Xuất</li>
+                <li><i class="fas fa-chart-bar"></i> Thống Kê</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <header>
+            <input type="text" placeholder="Nhập tên hoặc công dụng của thuốc mà bạn tìm">
+            <select >
+                <option >Tất cả thuốc</option>
+                <option >Dược phẩm</option>
+                <option >Vitamin</option>
+            </select>
+            <button>Thêm thuốc</button>
+            <div class="user-info">
+                <span>Xin chào: Nguyễn Châu Cao Thiên</span>
+                <i class="fas fa-user-circle"></i>
+            </div>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>Mã thuốc</th>
+                    <th>Tên thuốc</th>
+                    <th>Thuốc kê đơn</th>
+                    <th>Loại thuốc</th>
+                    <th>Số lượng</th>
+                    <th>Thực hiện</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Thuốc Azotell 400mg Stella</td>
+                    <td><i class="fas fa-times text-danger"></i></td>
+                    <td>Dược Phẩm</td>
+                    <td>100</td>
+                    <td>
+                        <button class="btn-detail">Xem Chi Tiết</button>
+                        <button class="btn-edit">Chỉnh Sửa</button>
+                        <button class="btn-delete">Xóa</button>
+                    </td>
+                </tr>
+                <tr>
+                   <td>2</td>
+                    <td>Viên uống HP max Vinacom</td>
+                    <td><i class="fas fa-times text-danger"></i></td>
+                    <td>Thực phẩm chức năng</td>
+                    <td>46</td>
+                    <td>
+                        <button class="btn-detail">Xem Chi Tiết</button>
+                        <button class="btn-edit">Chỉnh Sửa</button>
+                        <button class="btn-delete">Xóa</button>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Viên uống Hoạt Huyết Minh Não Khang</td>
+                    <td><i class="fas fa-times text-danger"></i></td>
+                    <td>Thực phẩm chức năng</td>
+                    <td>89</td>
+                    <td>
+                        <button class="btn-detail">Xem Chi Tiết</button>
+                        <button class="btn-edit">Chỉnh Sửa</button>
+                        <button class="btn-delete">Xóa</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Kit Humasis Covid-19 Ag Test...</td>
+                    <td><i class="fas fa-times text-danger"></i></td>
+                    <td>Sức khỏe mùa Covid</td>
+                    <td>50</td>
+                    <td>
+                        <button class="btn-detail">Xem Chi Tiết</button>
+                        <button class="btn-edit">Chỉnh Sửa</button>
+                        <button class="btn-delete">Xóa</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Viên uống An Tâm ngủ ngon</td>
+                    <td><i class="fas fa-times text-danger"></i></td>
+                    <td>Thực phẩm chức năng</td>
+                    <td>100</td>
+                    <td>
+                        <button class="btn-detail">Xem Chi Tiết</button>
+                        <button class="btn-edit">Chỉnh Sửa</button>
+                        <button class="btn-delete">Xóa</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Men vi sinh Bifina R Health Aid</td>
+                    <td><i class="fas fa-times text-danger"></i></td>
+                    <td>Thực phẩm chức năng</td>
+                    <td>999</td>
+                    <td>
+                        <button class="btn-detail">Xem Chi Tiết</button>
+                        <button class="btn-edit">Chỉnh Sửa</button>
+                        <button class="btn-delete">Xóa</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10002</td>
+                    <td>Thuốc Espumisan 40mg Menarini</td>
+                    <td><i class="fas fa-times text-danger"></i></td>
+                    <td>Dược phẩm</td>
+                    <td>20</td>
+                    <td>
+                        <button class="btn-detail">Xem Chi Tiết</button>
+                        <button class="btn-edit">Chỉnh Sửa</button>
+                        <button class="btn-delete">Xóa</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10003</td>
+                    <td>Thuốc Agifamcin 300mg Agimexpharm</td>
+                    <td><i class="fas fa-times text-danger"></i></td>
+                    <td>Dược phẩm</td>
+                    <td>10</td>
+                    <td>
+                        <button class="btn-detail">Xem Chi Tiết</button>
+                        <button class="btn-edit">Chỉnh Sửa</button>
+                        <button class="btn-delete">Xóa</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10004</td>
+                    <td>Thuốc Vitamin A-D Hdpharma </td>
+                    <td><i class="fas fa-times text-danger"></i></td>
+                    <td>Vitamin</td>
+                    <td>20</td>
+                    <td>
+                        <button class="btn-detail">Xem Chi Tiết</button>
+                        <button class="btn-edit">Chỉnh Sửa</button>
+                        <button class="btn-delete">Xóa</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10005</td>
+                    <td>Thuốc Vitamin B1 250mg Mekophar</td>
+                    <td><i class="fas fa-times text-danger"></i></td>
+                    <td>Vitamin</td>
+                    <td>100</td>
+                    <td>
+                        <button class="btn-detail">Xem Chi Tiết</button>
+                        <button class="btn-edit">Chỉnh Sửa</button>
+                        <button class="btn-delete">Xóa</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10006</td>
+                    <td>Viên sủi Calcium + Vitamin D3</td>
+                    <td><i class="fas fa-times text-danger"></i></td>
+                    <td>Vitamin</td>
+                    <td>19</td>
+                    <td>
+                        <button class="btn-detail">Xem Chi Tiết</button>
+                        <button class="btn-edit">Chỉnh Sửa</button>
+                        <button class="btn-delete">Xóa</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10007</td>
+                    <td>Dung dịch uống Hatro Vitamin D3 + DHA</td>
+                    <td><i class="fas fa-times text-danger"></i></td>
+                    <td>Vitamin</td>
+                    <td>101</td>
+                    <td>
+                        <button class="btn-detail">Xem Chi Tiết</button>
+                        <button class="btn-edit">Chỉnh Sửa</button>
+                        <button class="btn-delete">Xóa</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
